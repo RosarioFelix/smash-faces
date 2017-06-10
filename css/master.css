@@ -1,0 +1,50 @@
+*{
+  color: #000;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rokkitt', serif;
+}
+body{
+  font-size: 14px;
+}
+select{
+  width: 250px;
+  margin-left: 5%;
+}
+input{
+  width: 350px;
+}
+img{
+  width: 473px;
+  height: 400px;
+}
+.font-16{
+  font-size: 16px;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.mt-3{
+  margin-top: 3%
+}
+.mt-10{
+  margin-top: 10%;
+}
+/*colors*/
+.gray{
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+}
+.gray-dark{
+  background-color:#333333;
+  height: 400px;
+}
+.white{
+  color: #fff;
+}
+/*bootstrap*/
+.btn{
+  display: block;
+  margin-top: 30px;
+}
