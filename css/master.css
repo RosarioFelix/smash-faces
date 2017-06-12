@@ -1,3 +1,4 @@
+
 *{
   color: #000;
   box-sizing: border-box;
@@ -22,6 +23,9 @@ img{
 .font-16{
   font-size: 16px;
 }
+.font-25{
+  font-size: 25px;
+}
 .roboto{
     font-family: 'Roboto', sans-serif;
 }
@@ -30,6 +34,7 @@ img{
 }
 .mt-10{
   margin-top: 10%;
+  text-transform:
 }
 /*colors*/
 .gray{

@@ -10,57 +10,62 @@
   <title>Smash Faces</title>
 </head>
 <body>
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Smash Faces</h1>
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="roboto">Bienvenidas al juego de Smash Faces, tú misión es poder identificar a todas tus compañeras  de clase ingresando
-             para ello su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
-        </div>
-      </div>
-      <div class="row font-16 mt-3">
-        <div class="col-md-8">
-          <label for="">Elige tu Sede:</label>
-          <select class="gray" name="">
-            <option value="0">Elige una opcion</option>
-            <option value="1">Mexico</option>
-            <option value="2">Lima</option>
-          </select>
-        </div>
-        <div class="col-md-4">
-          <span>hola</span>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col-md-5">
-          <div class="root">
-          </div>
-        </div>
-        <div class="col-md-7 gray-dark font-16">
-            <div class="row">
-              <div class="col-md-12">
-                <p class="white mt-10">Ingresa su Nombre:</p>
-                <input type="text" placeholder="Nombre">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <button type="button" class="btn btn-warning">Comprobar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
+    <section>
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+           <h1>Smash Faces</h1>
+           <hr>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-md-12">
+           <p class="roboto">Bienvenidas al juego de Smash Faces, tú misión es poder identificar a todas tus compañeras  de clase ingresando
+              para ello su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
+         </div>
+       </div>
+       <div class="row font-16 mt-3">
+         <div class="col-md-8">
+           <label for="">Elige tu Sede:</label>
+           <select class="gray">
+             <option value="0">Elige una opcion</option>
+             <option value="1">Mexico</option>
+             <option value="2">Lima</option>
+           </select>
+         </div>
+         <div class="col-md-4">
+           <span>Puntos:</span>
+           <span id="points">0</span>
+         </div>
+       </div>
+       <div class="row mt-3">
+         <div class="col-md-5">
+           <img src="" alt="">
+         </div>
+         <div class="col-md-7 gray-dark font-16">
+             <div class="row">
+               <div class="col-md-12">
+                 <p class="white mt-10 text-center">Ingresa su Nombre:</p>
+                 <input type="text" placeholder="Nombre" class="center-block">
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-md-12">
+                 <button type="button" class="btn btn-warning center-block" id ="boton">Comprobar</button>
+                 <div class="result mt-10">
+                   <p id ="ok" class="white font-25 text-center">Acertaste !!!</p>
+                   <p id ="fail" class="white font-25 text-center">Fallaste, Sigue Intentando.</p>
+                   <p id = "next" class="white font-25 text-center">Siguiente Coder!</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+   </section>
   <script type="text/javascript" src="js/vendor/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/datos/mexico.js"></script>
-  <script type="text/javascript" src="js/datos/peru.js"></script>
+  <script src="js/datos/mexico.js"></script>
+  <script src="js/datos/peru.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
