@@ -53,7 +53,7 @@ function interval(){ // funcion de interval
       interval();
       ok.hide()},1800);
 
-} else if((contClick<= 5) && (inputText != laboName) && (inputText != "")){
+} else if((contClick<= 5) && (inputText != laboName)){
       fail.show()
       emptyInput;
       console.log(contClick)
